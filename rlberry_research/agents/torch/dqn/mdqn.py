@@ -152,7 +152,7 @@ class MunchausenDQNAgent(AgentTorch, AgentWithSimplePolicy):
          Arguments to be passed to `AgentWithSimplePolicy.__init__(self, env, **kwargs)` (:class:`~rlberry.agents.AgentWithSimplePolicy`).
     """
 
-    name = "Munchausen DQN"
+    name = "Munchausen_DQN"
 
     def __init__(
         self,
